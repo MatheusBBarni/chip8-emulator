@@ -1,7 +1,7 @@
 import { MEMORY_SIZE } from "./constants/memoryConstants";
 
 export class Memory {
-  private memory: Uint8Array;
+  memory: Uint8Array;
 
   constructor() {
     this.memory = new Uint8Array(MEMORY_SIZE);
